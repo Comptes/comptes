@@ -1,0 +1,7 @@
+parameters:
+#    yomen_accounts.example.class: Yomen\AccountsBundle\Example
+
+services:
+#    yomen_accounts.example:
+#        class: %yomen_accounts.example.class%
+#        arguments: [@service_id, "plain_value", %parameter%]
