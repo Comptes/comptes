@@ -1,3 +1,11 @@
 yomen_accounts_homepage:
     pattern:  /hello/{name}
     defaults: { _controller: YomenAccountsBundle:Default:index }
+
+YomenAccountsBundle_account:
+    resource: "@YomenAccountsBundle/Resources/config/routing/account.yml"
+    prefix:   /account
+    
+YomenAccountsBundle_operation:
+        resource: "@YomenAccountsBundle/Resources/config/routing/operation.yml"
+        prefix:   /operation

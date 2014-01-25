@@ -1,0 +1,30 @@
+account:
+    pattern:  /
+    defaults: { _controller: "YomenAccountsBundle:Account:index" }
+
+account_show:
+    pattern:  /{id}/show
+    defaults: { _controller: "YomenAccountsBundle:Account:show" }
+
+account_new:
+    pattern:  /new
+    defaults: { _controller: "YomenAccountsBundle:Account:new" }
+
+account_create:
+    pattern:  /create
+    defaults: { _controller: "YomenAccountsBundle:Account:create" }
+    requirements: { _method: post }
+
+account_edit:
+    pattern:  /{id}/edit
+    defaults: { _controller: "YomenAccountsBundle:Account:edit" }
+
+account_update:
+    pattern:  /{id}/update
+    defaults: { _controller: "YomenAccountsBundle:Account:update" }
+    requirements: { _method: post|put }
+
+account_delete:
+    pattern:  /{id}/delete
+    defaults: { _controller: "YomenAccountsBundle:Account:delete" }
+    requirements: { _method: post|delete }

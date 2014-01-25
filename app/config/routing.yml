@@ -1,0 +1,4 @@
+yomen_accounts:
+    resource: "@YomenAccountsBundle/Resources/config/routing.yml"
+    prefix:   /yomen
+
