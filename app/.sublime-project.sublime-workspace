@@ -1,0 +1,449 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"Base",
+				"BaseEntity"
+			],
+			[
+				"Ba",
+				"BaseEntity"
+			],
+			[
+				"Sub",
+				"SubscriptionEntry"
+			],
+			[
+				"des",
+				"destroyMenu"
+			],
+			[
+				"reverse",
+				"reverse_lazy"
+			],
+			[
+				"add",
+				"add_webdocument_workspace_action"
+			],
+			[
+				"mod",
+				"model_actions"
+			],
+			[
+				"mo",
+				"model_actions"
+			],
+			[
+				"action",
+				"action_registry"
+			],
+			[
+				"ac",
+				"actions_registry"
+			],
+			[
+				"f",
+				"file_name"
+			],
+			[
+				"Kii",
+				"KiiModelActionsRegistry"
+			],
+			[
+				"re",
+				"register_actions"
+			],
+			[
+				"own",
+				"owner_only"
+			],
+			[
+				"is",
+				"is_owner"
+			],
+			[
+				"Wor",
+				"Workspace"
+			],
+			[
+				"get",
+				"get_edit_url"
+			],
+			[
+				"inh",
+				"private_inherited"
+			],
+			[
+				"workspaces",
+				"library_workspaces"
+			],
+			[
+				"pri",
+				"private_parent"
+			],
+			[
+				"priv",
+				"private_inherited"
+			],
+			[
+				"items",
+				"items_url"
+			],
+			[
+				"User",
+				"UserFactory"
+			],
+			[
+				"ite",
+				"items_url"
+			],
+			[
+				"set",
+				"setUp"
+			],
+			[
+				"w",
+				"workspaces"
+			],
+			[
+				"crea",
+				"create_storableandtaggableitems"
+			],
+			[
+				"Sto",
+				"StorableAndTaggableItemFactory"
+			],
+			[
+				"Stora",
+				"StorableAndTaggableItem"
+			],
+			[
+				"create",
+				"create_workspace"
+			],
+			[
+				"private_in",
+				"private_inherited"
+			],
+			[
+				"pr",
+				"private"
+			],
+			[
+				"private",
+				"private_inherited"
+			],
+			[
+				"st",
+				"storableandtaggableitems"
+			],
+			[
+				"stora",
+				"create_storableandtaggableitems"
+			],
+			[
+				"c",
+				"child"
+			],
+			[
+				"test",
+				"test_user"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"console":
+	{
+		"height": 0.0
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/home/eliotberriot/Seafile/Archives/Projets/Comptes/src/symfony/.gitignore",
+		"/home/eliotberriot/Seafile/Archives/Projets/Comptes/src/symfony/composer.phar",
+		"/home/eliotberriot/Seafile/Archives/Projets/Comptes/src/symfony/README.md",
+		"/home/eliotberriot/Seafile/Archives/Projets/Comptes/src/symfony/app/config/parameters.yml.dist",
+		"/home/eliotberriot/Seafile/Archives/Projets/Comptes/src/symfony/app/AppKernel.php",
+		"/home/eliotberriot/Seafile/Archives/Projets/Comptes/src/symfony/src/Yomen/AccountsBundle/Entity/Account.php",
+		"/home/eliotberriot/Seafile/Archives/Projets/Comptes/src/symfony/src/Yomen/AccountsBundle/Entity/BaseEntity.php",
+		"/home/eliotberriot/Seafile/Archives/Projets/kii/kii/kriss.opml",
+		"/home/eliotberriot/Téléchargements/subscriptions.opml",
+		"/home/eliotberriot/Seafile/Archives/Projets/Hat/Communication/hat/fabfile.py",
+		"/home/eliotberriot/Seafile/Archives/Projets/Hat/Projets/Léo Cavalier/contact 28-01-2014",
+		"/home/eliotberriot/Seafile/Archives/Projets/Comptes/src/symfony/src/Yomen/AccountsBundle/Entity/Operation.php",
+		"/home/eliotberriot/Seafile/Archives/Projets/Comptes/src/symfony/app/config/parameters.yml",
+		"/home/eliotberriot/Seafile/Archives/Projets/Comptes/src/symfony/src/Yomen/AccountsBundle/Resources/config/routing.yml",
+		"/home/eliotberriot/Seafile/Archives/Projets/Comptes/src/symfony/src/Yomen/AccountsBundle/Resources/config/routing/account.yml",
+		"/home/eliotberriot/Seafile/Archives/Projets/Comptes/src/symfony/src/Yomen/AccountsBundle/Resources/views/Account/show.html.twig",
+		"/home/eliotberriot/Seafile/Archives/Projets/kii/fabfile.py",
+		"/home/eliotberriot/Seafile/Archives/Projets/Comptes/src/symfony/app/config/routing.yml",
+		"/home/eliotberriot/Seafile/Archives/Projets/Comptes/src/symfony/src/Yomen/AccountsBundle/Form/AccountType.php",
+		"/home/eliotberriot/Seafile/Archives/Projets/Comptes/src/symfony/src/Yomen/AccountsBundle/Controller/OperationController.php",
+		"/home/eliotberriot/Seafile/Archives/Projets/Comptes/src/symfony/src/Yomen/AccountsBundle/Resources/views/Operation/edit.html.twig",
+		"/home/eliotberriot/Seafile/Archives/Projets/Comptes/src/symfony/src/Yomen/AccountsBundle/Form/OperationType.php",
+		"/home/eliotberriot/Seafile/Archives/Projets/Comptes/src/symfony/app/config/routing_dev.yml",
+		"/home/eliotberriot/Seafile/Archives/seafile-ignore.txt",
+		"/home/eliotberriot/Seafile/Archives/Projets/Hat/Projets/Ye Xing-Qian/hat_s_yexingqian/custom-style.scss",
+		"/home/eliotberriot/Seafile/Archives/Projets/Hat/Communication/hat/requirements.txt",
+		"/home/eliotberriot/Seafile/Archives/Projets/Hat/Communication/hat/hat/templates/hat/base.html",
+		"/home/eliotberriot/Seafile/Archives/Projets/Hat/Communication/hat/hat/static/hat/sass/style.css",
+		"/home/eliotberriot/Seafile/Archives/Projets/kii/classify/static/classify/js/scripts.js",
+		"/home/eliotberriot/Seafile/Archives/Projets/kii/kii/static/kii/css/style.css",
+		"/home/eliotberriot/Seafile/Archives/Projets/Comptes/src/symfony/UPGRADE-2.3.md",
+		"/home/eliotberriot/Seafile/Archives/Projets/Comptes/src/symfony/UPGRADE-2.2.md",
+		"/home/eliotberriot/Seafile/Archives/Projets/Comptes/src/symfony/app/config/config.yml",
+		"/home/eliotberriot/Seafile/Archives/Projets/Comptes/src/symfony/app/config/config_dev.yml",
+		"/home/eliotberriot/Seafile/Archives/Projets/kii/library/views.py",
+		"/home/eliotberriot/Seafile/Archives/Projets/kii/classify/static/classify/js/draganddrop.js",
+		"/home/eliotberriot/Seafile/Archives/Projets/kii/classify/locale/fr/LC_MESSAGES/django.po",
+		"/home/eliotberriot/Seafile/Archives/Projets/kii/library/locale/fr/LC_MESSAGES/django.po",
+		"/home/eliotberriot/Seafile/Archives/Projets/kii/kii/templates/kii/base.html",
+		"/home/eliotberriot/Seafile/Archives/Projets/kii/base_items/static/base_items/css/style.css",
+		"/home/eliotberriot/Seafile/Archives/Projets/kii/classify/kii_model_actions_registry.py",
+		"/home/eliotberriot/Seafile/Archives/Projets/kii/classify/models.py",
+		"/home/eliotberriot/Seafile/Archives/Projets/kii/library/static/library/js/subscriptions.js",
+		"/home/eliotberriot/Seafile/Archives/Projets/kii/classify/templates/classify/classify_page.html",
+		"/home/eliotberriot/Seafile/Archives/Projets/savior/README.md",
+		"/home/eliotberriot/Seafile/Archives/Projets/kii/docs/deployment.md",
+		"/home/eliotberriot/Seafile/Archives/Projets/kii/README.md",
+		"/home/eliotberriot/Seafile/Archives/Projets/kii/CONTRIBUTE.md",
+		"/home/eliotberriot/Seafile/Archives/Projets/Hat/Projets/Ye Xing-Qian/hat_s_yexingqian/home.php",
+		"/home/eliotberriot/Seafile/Archives/Projets/kii/commands.txt",
+		"/home/eliotberriot/Seafile/Archives/Projets/Hat/Communication/hat/projects/static/projects/sass/style.css",
+		"/home/eliotberriot/Seafile/Archives/Projets/Hat/Projets/Ye Xing-Qian/entretien téléphonique 21-01-2014.txt",
+		"/home/eliotberriot/Seafile/Archives/Projets/Hat/Projets/Ye Xing-Qian/entretien téléphone 4-12-2013",
+		"/home/eliotberriot/Seafile/Archives/Projets/Hat/Communication/hat/hat/settings.py",
+		"/home/eliotberriot/Seafile/Archives/Projets/kii/library/templates/library/subscriptionentry/actions.html",
+		"/home/eliotberriot/Seafile/Archives/Projets/savior/src/utils.py",
+		"/home/eliotberriot/Seafile/Archives/Projets/savior/src/main.py",
+		"/home/eliotberriot/pycharm/build.txt",
+		"/home/eliotberriot/Seafile/Archives/Projets/kii/search/templates/search/search_form.html",
+		"/home/eliotberriot/Seafile/Archives/Projets/kii/.git/refs/heads/refactoring_bug",
+		"/home/eliotberriot/Seafile/Archives/Projets/kii/.git/HEAD",
+		"/home/eliotberriot/Seafile/Archives/Important/Logement/89 rue Jean de Bernardy/caf.txt",
+		"/home/eliotberriot/Seafile/Archives/Important/Logement/89 rue Jean de Bernardy/appel 13-12-2013",
+		"/home/eliotberriot/Seafile/Archives/Projets/kii/library/kii_model_actions_registry.py",
+		"/home/eliotberriot/Seafile/Archives/Projets/kii/library/templates/library/subscriptionentry/read_state_action.html",
+		"/home/eliotberriot/Seafile/Archives/Projets/kii/library/models.py",
+		"/home/eliotberriot/Seafile/Archives/Projets/kii/classify/widgets_config.py",
+		"/home/eliotberriot/Seafile/Archives/Projets/kii/base_items/models.py",
+		"/home/eliotberriot/Seafile/Archives/Projets/kii/kii/registry.py",
+		"/home/eliotberriot/Seafile/Archives/Projets/kii/base_items/kii_meta_registry.py",
+		"/home/eliotberriot/Seafile/Archives/Projets/kii/classify/i18n.py",
+		"/home/eliotberriot/Seafile/Archives/Projets/kii/library/i18n.py",
+		"/home/eliotberriot/Seafile/Archives/Projets/kii/library/templates/library/subscriptionentry/list_item.html",
+		"/home/eliotberriot/Seafile/Archives/Projets/kii/library/static/library/js/form.js",
+		"/home/eliotberriot/Seafile/Archives/Projets/kii/classify/templates/classify/tags_widget.html",
+		"/home/eliotberriot/Seafile/Archives/Projets/kii/base_items/templates/base_items/action.html",
+		"/home/eliotberriot/Seafile/Archives/Projets/kii/base_items/templatetags/base_items_filters.py",
+		"/home/eliotberriot/Seafile/Archives/Projets/kii/base_items/actions.py",
+		"/home/eliotberriot/Seafile/Archives/Projets/kii/fab_settings.py",
+		"/home/eliotberriot/Seafile/Archives/Projets/kii/base_items/kii_model_actions_registry.py",
+		"/home/eliotberriot/Seafile/Archives/Projets/kii/classify/templates/classify/workspaces_widget.html",
+		"/home/eliotberriot/Seafile/Archives/Projets/kii/base_items/templates/base_items/actions.html",
+		"/home/eliotberriot/Seafile/Archives/Projets/kii/classify/static/classify/css/style.css",
+		"/home/eliotberriot/Seafile/Archives/Projets/kii/kii/urls.py",
+		"/home/eliotberriot/Seafile/Archives/Projets/kii/classify/templates/classify/workspace_actions.html",
+		"/home/eliotberriot/Seafile/Archives/Projets/kii/library/tests.py",
+		"/home/eliotberriot/Seafile/Archives/Projets/kii/base_items/tests.py",
+		"/home/eliotberriot/Seafile/Archives/Projets/kii/base_items/static/base_items/js/contextmenu.js",
+		"/home/eliotberriot/Seafile/Archives/Projets/kii/base_items/static/base_items/js/mar10-jquery-ui-contextmenu-9ec46a9/jquery.ui-contextmenu.js",
+		"/home/eliotberriot/Seafile/Archives/Projets/kii/base_items/static/base_items/js/mar10-jquery-ui-contextmenu-9ec46a9/jquery.ui-contextmenu.min.js",
+		"/home/eliotberriot/Seafile/Archives/Projets/kii/.gitignore",
+		"/home/eliotberriot/.virtualenvs/kii/lib/python2.7/site-packages/autocomplete_light/__init__.py",
+		"/home/eliotberriot/.virtualenvs/kii/lib/python2.7/site-packages/autocomplete_light/registry.py",
+		"/home/eliotberriot/Seafile/Archives/Projets/kii/classify/autocomplete_light_registry.py",
+		"/home/eliotberriot/Seafile/Archives/Projets/kii/kii/tasks_autodiscover.py",
+		"/home/eliotberriot/Seafile/Archives/Projets/kii/widgets/widget.py",
+		"/home/eliotberriot/.virtualenvs/kii/lib/python2.7/site-packages/django/db/models/base.py",
+		"/home/eliotberriot/Seafile/Archives/Projets/kii/base_items/templatetags/base_items_tags.py",
+		"/home/eliotberriot/Seafile/Archives/Projets/kii/classify/templates/classify/workspaces_widget_item.html",
+		"/home/eliotberriot/Seafile/Archives/Projets/kii/classify/views.py",
+		"/home/eliotberriot/Seafile/Archives/Projets/kii/classify/forms.py",
+		"/home/eliotberriot/Seafile/Archives/Projets/kii/kii/tests.py",
+		"/home/eliotberriot/Seafile/Archives/Projets/kii/classify/tests.py",
+		"/home/eliotberriot/Seafile/Archives/Projets/kii/library/factories.py",
+		"/home/eliotberriot/Seafile/Archives/Projets/kii/base_items/factories.py",
+		"/home/eliotberriot/Seafile/Archives/Projets/kii/classify/factories.py",
+		"/home/eliotberriot/.virtualenvs/kii/lib/python2.7/site-packages/django/contrib/auth/models.py",
+		"/home/eliotberriot/Seafile/Archives/Projets/kii/kii/factories.py",
+		"/home/eliotberriot/Seafile/Archives/Projets/kii/kii/views.py",
+		"/home/eliotberriot/Seafile/Archives/Projets/kii/kii/local_settings.py",
+		"/home/eliotberriot/Seafile/Archives/Projets/kii/kii/fixtures/auth.json",
+		"/home/eliotberriot/Seafile/Archives/Projets/kii/kii/fixtures/test.yaml",
+		"/home/eliotberriot/Seafile/Archives/Projets/kii/install/requirements/python/dev",
+		"/home/eliotberriot/Seafile/Archives/Projets/kii/base_items/fixtures/test.yaml",
+		"/home/eliotberriot/Seafile/Archives/Projets/kii/classify/fixtures/test.yaml",
+		"/home/eliotberriot/Seafile/Archives/Projets/kii/classify/fixtures/initial_data.json",
+		"/home/eliotberriot/Seafile/Archives/Projets/kii/kii/fixtures/initial_data.json",
+		"/home/eliotberriot/Seafile/Archives/Projets/kii/install/requirements/python/global",
+		"/home/eliotberriot/Seafile/Archives/Projets/kii/kii/fixtures/test.json",
+		"/home/eliotberriot/.config/sublime-text-2/Packages/Default/Preferences.sublime-settings"
+	],
+	"find":
+	{
+		"height": 108.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"home",
+			"        \n",
+			"get",
+			"action",
+			"set_private",
+			"Tag_items",
+			"_PYTHON",
+			"w",
+			"object",
+			"object_list",
+			"objects_list",
+			"is_an",
+			"        item = self.create_storableandtaggableitem(name=\"First\")\n",
+			"item",
+			"child",
+			"parent.",
+			"parent",
+			"grand_parent",
+			"w3",
+			"w2",
+			"w1",
+			"\n",
+			"   ",
+			"    ",
+			"	",
+			", ",
+			"\", ",
+			",",
+			"			\""
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 0.0
+	},
+	"input":
+	{
+		"height": 31.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"replace":
+	{
+		"height": 0.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+			[
+				"fab",
+				"fab_settings.py"
+			],
+			[
+				"classify/tes",
+				"classify/tests.py"
+			],
+			[
+				"test.y",
+				"base_items/fixtures/test.yaml"
+			],
+			[
+				"model",
+				"base_items/models.py"
+			],
+			[
+				"initi",
+				"kii/fixtures/initial_data.json"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 264.0,
+	"status_bar_visible": true
+}
