@@ -1,0 +1,7 @@
+yomen_category_homepage:
+    pattern:  /hello/{name}
+    defaults: { _controller: YomenCategoryBundle:Default:index }
+
+YomenCategoryBundle_category:
+    resource: "@YomenCategoryBundle/Resources/config/routing/category.yml"
+    prefix:   /category

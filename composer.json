@@ -23,7 +23,8 @@
         "bmatzner/jquery-bundle": "~1.10",
         "bmatzner/foundation-bundle": "dev-master",
         "friendsofsymfony/user-bundle": "2.0.*@dev",
-        "doctrine/doctrine-fixtures-bundle": "dev-master"
+        "doctrine/doctrine-fixtures-bundle": "dev-master",
+        "gedmo/doctrine-extensions": "2.3.*@dev"
     },
     "scripts": {
         "post-install-cmd": [

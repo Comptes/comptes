@@ -1,3 +1,7 @@
+yomen_category:
+    resource: "@YomenCategoryBundle/Resources/config/routing.yml"
+    prefix:   /
+
 yomen_user:
     resource: "@YomenUserBundle/Controller/"
     type:     annotation

@@ -1,0 +1,30 @@
+category:
+    pattern:  /
+    defaults: { _controller: "YomenCategoryBundle:Category:index" }
+
+category_show:
+    pattern:  /{id}/show
+    defaults: { _controller: "YomenCategoryBundle:Category:show" }
+
+category_new:
+    pattern:  /new
+    defaults: { _controller: "YomenCategoryBundle:Category:new" }
+
+category_create:
+    pattern:  /create
+    defaults: { _controller: "YomenCategoryBundle:Category:create" }
+    requirements: { _method: post }
+
+category_edit:
+    pattern:  /{id}/edit
+    defaults: { _controller: "YomenCategoryBundle:Category:edit" }
+
+category_update:
+    pattern:  /{id}/update
+    defaults: { _controller: "YomenCategoryBundle:Category:update" }
+    requirements: { _method: post|put }
+
+category_delete:
+    pattern:  /{id}/delete
+    defaults: { _controller: "YomenCategoryBundle:Category:delete" }
+    requirements: { _method: post|delete }

@@ -22,6 +22,7 @@ class AppKernel extends Kernel
             new Bmatzner\FoundationBundle\BmatznerFoundationBundle(),
             new Yomen\UserBundle\YomenUserBundle(),
             new Doctrine\Bundle\FixturesBundle\DoctrineFixturesBundle(),
+            new Yomen\CategoryBundle\YomenCategoryBundle(),
         );
 
         if (in_array($this->getEnvironment(), array('dev', 'test'))) {
