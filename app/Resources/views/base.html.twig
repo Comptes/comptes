@@ -18,7 +18,29 @@
     </head>
     <body>
         
-            <nav id="main_menu"></nav>
+            <nav id="main_menu" class="top-bar">
+                {% block main_menu %}
+                <section class="top-bar-section">
+                    <ul>
+                        <li>
+                            <a href="{{ path('account') }}">
+                                Accounts
+                            </a>
+                        </li>
+                        <li>
+                            <a href="{{ path('operation') }}">
+                                Operations
+                            </a>
+                        </li>
+                    </ul>
+                </section>
+                {% endblock %}
+            </nav>
+            <nav id="sub_menu">
+                    
+                {% block sub_menu %}
+                {% endblock %}
+            </nav>
             <div id="main_content">
                     {% block body %}
                     {% endblock %}
