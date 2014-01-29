@@ -1,0 +1,4 @@
+comptes_cpt:
+    resource: "@ComptesCptBundle/Resources/config/routing.yml"
+    prefix:   /
+
