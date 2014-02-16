@@ -1,5 +1,5 @@
 yomen_accounts_homepage:
-    pattern:  /hello/{name}
+    pattern:  /
     defaults: { _controller: YomenAccountsBundle:Default:index }
 
 YomenAccountsBundle_account:

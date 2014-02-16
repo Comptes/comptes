@@ -4,6 +4,11 @@ namespace Yomen\AccountsBundle\Entity;
 
 use Doctrine\ORM\Mapping as ORM;
 use Yomen\AccountsBundle\Entity\BaseEntity;
+
+// Operation is the entity used to describe how money move on an account.
+// It can be either money coming in or coming out. In each case, "value" 
+// field will be respectively positive or negative.
+
 /**
  * Operation
  *
@@ -20,16 +25,6 @@ class Operation extends BaseEntity
      */
     private $value;
 
-
-    /**
-     * Get id
-     *
-     * @return integer 
-     */
-    public function getId()
-    {
-        return $this->id;
-    }
 
     /**
      * Set value

@@ -12,4 +12,15 @@ use Doctrine\ORM\EntityRepository;
  */
 class BaseEntityRepository extends EntityRepository
 {
+    public function ownedBy($owner, \Doctrine\ORM\QueryBuilder $qb = null)
+    {
+        if (is_null($qb)) {
+            $qb = $this->createQueryBuilder('a');
+        }
+        $qb->andWhere('a.owner.id = :owner_id')
+          ->setParameter('owner_id', $owner->getId());  
+        return $qb;
+    }
+
+
 }

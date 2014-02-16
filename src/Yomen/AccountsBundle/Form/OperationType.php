@@ -17,8 +17,6 @@ class OperationType extends AbstractType
         $builder
             ->add('name')
             ->add('description')
-            ->add('createdOn')
-            ->add('modifiedOn')
             ->add('value')
         ;
     }

@@ -5,17 +5,18 @@ namespace Yomen\AccountsBundle\Entity;
 use Doctrine\ORM\Mapping as ORM;
 
 /* BaseEntity contains commons fields that are used by all Yomen entities To do
-so, BaseEntity must be extended by other entities, using the Single Table
-Inheritence scheme, provided by Doctrine (http://docs.doctrine-
-project.org/en/latest/reference/inheritance-mapping.html#single-table-
-inheritance) */
+so, BaseEntity must be extended by other entities, using the Sinle tabel inheritance scheme, provided by Doctrine 
+(http://docs.doctrine-project.org/en/2.0.x/reference/inheritance-mapping.html#single-table-inheritance) */
 
 /**
- * Base Entity 
+ * @ORM\Table()
  * @ORM\Entity
- * @ORM\InheritanceType("SINGLE_TABLE")
+ * @ORM\InheritanceType("JOINED")
  * @ORM\DiscriminatorColumn(name="discr", type="string")
- * @ORM\DiscriminatorMap({})
+ * @ORM\DiscriminatorMap({"account" = "\Yomen\AccountsBundle\Entity\Account", 
+ *   "operation" = "\Yomen\AccountsBundle\Entity\Operation",
+ *   "category" = "\Yomen\CategoryBundle\Entity\Category"
+ * })
  */
 class BaseEntity
 {
@@ -38,7 +39,7 @@ class BaseEntity
     /**
      * @var string
      *
-     * @ORM\Column(name="description", type="text")
+     * @ORM\Column(name="description", type="text", nullable=true)
      */
     private $description;
 
@@ -56,7 +57,19 @@ class BaseEntity
      */
     private $modifiedOn;
 
+    /**
+     * @ORM\ManyToOne(targetEntity="\Yomen\UserBundle\Entity\User", inversedBy="items")
+     */
+    private $owner;
 
+    public function __construct(){
+
+        $this->createdOn = new \Datetime();  // Set creation datetime to "now" when entity is created
+        $this->modifiedOn = new \Datetime(); // Set last modification datetime to "now" when entity is created
+    }
+    public function __toString(){
+        return $this->name;
+    }
     /**
      * Get id
      *
@@ -66,6 +79,7 @@ class BaseEntity
     {
         return $this->id;
     }
+
 
     /**
      * Set name
@@ -157,5 +171,38 @@ class BaseEntity
     public function getModifiedOn()
     {
         return $this->modifiedOn;
+    }
+
+    /**
+     * Add owner
+     *
+     * @param \Yomen\UserBundle\User $owner
+     * @return BaseEntity
+     */
+    public function addOwner(\Yomen\UserBundle\User $owner)
+    {
+        $this->owner[] = $owner;
+
+        return $this;
+    }
+
+    /**
+     * Remove owner
+     *
+     * @param \Yomen\UserBundle\User $owner
+     */
+    public function removeOwner(\Yomen\UserBundle\User $owner)
+    {
+        $this->owner->removeElement($owner);
+    }
+
+    /**
+     * Get owner
+     *
+     * @return \Doctrine\Common\Collections\Collection 
+     */
+    public function getOwner()
+    {
+        return $this->owner;
     }
 }

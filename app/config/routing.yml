@@ -28,7 +28,7 @@ fos_user_change_password:
 
 yomen_accounts:
     resource: "@YomenAccountsBundle/Resources/config/routing.yml"
-    prefix:   /yomen
+    prefix:   /
 
 
 

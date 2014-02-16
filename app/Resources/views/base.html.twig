@@ -23,6 +23,11 @@
                 <section class="top-bar-section">
                     <ul>
                         <li>
+                            <a href="{{ path('yomen_accounts_homepage') }}">
+                                Home
+                            </a>
+                        </li>
+                        <li>
                             <a href="{{ path('account') }}">
                                 Accounts
                             </a>
@@ -46,6 +51,24 @@
                 {% block sub_menu %}
                 {% endblock %}
             </nav>
+            <div id="user_area">
+                {% if is_granted("IS_AUTHENTICATED_REMEMBERED") %}
+                    {{ 'layout.logged_in_as'|trans({'%username%': app.user.username}, 'FOSUserBundle') }} |
+                    <a href="{{ path('fos_user_security_logout') }}">
+                        {{ 'layout.logout'|trans({}, 'FOSUserBundle') }}
+                    </a>
+                {% else %}
+                    <form action="{{ path("fos_user_security_check") }}" method="post">
+                      <label>Username</label>
+                      <input type="text" name="_username" required="required" />
+
+                      <label>Password</label>
+                      <input type="password" name="_password" required="required" />
+                      <input type="hidden" name="_csrf_token" value="{{ fos_csrf_provider.generateCsrfToken('authenticate') }}" />
+                      <button type="submit">Submit</button>
+                    </form>
+                {% endif %}
+            </div>
             <div id="main_content">
                     {% block body %}
                     {% endblock %}

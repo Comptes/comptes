@@ -17,8 +17,6 @@ class AccountType extends AbstractType
         $builder
             ->add('name')
             ->add('description')
-            ->add('createdOn')
-            ->add('modifiedOn')
             ->add('iban')
         ;
     }

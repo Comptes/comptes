@@ -15,21 +15,23 @@ class LoadUserData implements FixtureInterface
         // create three users, that can be used for testing purposes
         $userAdmin = new User();
         $userAdmin->setUsername('admin');
-        $userAdmin->setPassword('admin');
+        $userAdmin->setPlainPassword('admin');
         $userAdmin->setEmail('admin@example.com');
+        $userAdmin->setEnabled(true);
         $manager->persist($userAdmin);
 
         $userAdmin = new User();
         $userAdmin->setUsername('user1');
-        $userAdmin->setPassword('user1');
+        $userAdmin->setPlainPassword('user1');
         $userAdmin->setEmail('user1@example.com');
-
+        $userAdmin->setEnabled(true);
         $manager->persist($userAdmin);
 
         $userAdmin = new User();
         $userAdmin->setUsername('user2');
-        $userAdmin->setPassword('user2');
+        $userAdmin->setPlainPassword('user2');
         $userAdmin->setEmail('user2@example.com');
+        $userAdmin->setEnabled(true);
         $manager->persist($userAdmin);
 
         $manager->flush();
