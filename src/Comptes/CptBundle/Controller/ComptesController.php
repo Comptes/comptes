@@ -16,5 +16,14 @@ class ComptesController extends Controller
             'middleContent' => 'Ah que coucou les lecteurs, j\'espère que ça va trop super bien ici !! =)',
         );
         return $this->render('ComptesCptBundle:Comptes:index.html.twig', $Param);
+    } // indexAction
+    
+    public function pageAction($name = '')
+    {
+        $Param = array(
+            'title' => 'Ah que coucou !!',
+            'titleContent' => $name,
+        );
+        return $this->render('ComptesCptBundle:Comptes:page.html.twig', $Param);
     }
 }
