@@ -218,4 +218,14 @@ class BaseEntity
 
         return $this;
     }
+
+    // Return True if given user is owner of this entity
+    public function is_owner($user) {
+        if ($this->getOwner() == $user){
+            return true;
+        }
+        else {
+            return false;
+        }
+    }
 }

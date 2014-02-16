@@ -22,30 +22,50 @@ class BaseEntityController extends Controller
      * Lists all Operation entities.
      *
      */
+
+    // return the current user
+    public function get_current_user() {
+        return $this->get('security.context')->getToken()->getUser();
+    }
+    // return true if the current user is fully authenticated (not anonymous)
+    public function is_fully_authenticated() {
+        return $this->get('security.context')->isGranted('IS_AUTHENTICATED_FULLY');
+    }
+
+    // throw a 404 error if the user is not logged in
+    public function login_required(){
+        if (!$this->is_fully_authenticated()) {
+            throw $this->createNotFoundException('You need to login first');
+        }
+    }
     public function indexAction()
     {
+        $this->login_required();
         $em = $this->getDoctrine()->getManager();
 
-        $entities = $em->getRepository($this->entity)->findBy(array("owner" => $this->get('security.context')->getToken()->getUser()));
+        // list of entities owned by current user
+        $entities = $em->getRepository($this->entity)
+            ->findBy(array("owner" => $this->get_current_user()));
 
         return $this->render($this->entity.':index.html.twig', array(
             'entities' => $entities,
         ));
     }
     /**
-     * Creates a new Operation entity.
+     * Creates a new entity.
      *
      */
     public function createAction(Request $request)
     {
+        $this->login_required();
+
         $entity = new $this->entity_class();
         $form = $this->createCreateForm($entity);
         $form->handleRequest($request);
 
         if ($form->isValid()) {
             $em = $this->getDoctrine()->getManager();
-            $user = $this->container->get('security.context')->getToken()->getUser();
-            $entity->setOwner($user);
+            $entity->setOwner($this->get_current_user()); // owner is current user
             $em->persist($entity);
             $em->flush();
 
@@ -83,6 +103,7 @@ class BaseEntityController extends Controller
      */
     public function newAction()
     {
+        $this->login_required();
         $entity = new $this->entity_class();
         $form   = $this->createCreateForm($entity);
 
@@ -98,6 +119,7 @@ class BaseEntityController extends Controller
      */
     public function showAction($id)
     {
+        $this->login_required();
         $em = $this->getDoctrine()->getManager();
 
         $entity = $em->getRepository($this->entity)->find($id);
@@ -119,6 +141,7 @@ class BaseEntityController extends Controller
      */
     public function editAction($id)
     {
+        $this->login_required();
         $em = $this->getDoctrine()->getManager();
 
         $entity = $em->getRepository($this->entity)->find($id);
@@ -161,6 +184,7 @@ class BaseEntityController extends Controller
      */
     public function updateAction(Request $request, $id)
     {
+        $this->login_required();
         $em = $this->getDoctrine()->getManager();
 
         $entity = $em->getRepository($this->entity)->find($id);
@@ -191,6 +215,7 @@ class BaseEntityController extends Controller
      */
     public function deleteAction(Request $request, $id)
     {
+        $this->login_required();
         $form = $this->createDeleteForm($id);
         $form->handleRequest($request);
 

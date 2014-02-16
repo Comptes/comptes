@@ -22,5 +22,4 @@ class BaseEntityRepository extends EntityRepository
         return $qb;
     }
 
-
 }
