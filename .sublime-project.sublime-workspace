@@ -1,0 +1,622 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"sta",
+				"standard_padding"
+			],
+			[
+				"user",
+				"user_id"
+			],
+			[
+				"dis",
+				"display_item_id"
+			],
+			[
+				"rel",
+				"related_items"
+			],
+			[
+				"for",
+				"foreach	foreach …"
+			],
+			[
+				"stan",
+				"standard_margin"
+			],
+			[
+				"margin",
+				"margin-bottom"
+			],
+			[
+				"pad",
+				"padding"
+			],
+			[
+				"padd",
+				"padding-bottom"
+			],
+			[
+				"inline",
+				"inline-block"
+			],
+			[
+				"cate",
+				"category"
+			],
+			[
+				"web",
+				"website"
+			],
+			[
+				"font",
+				"font-weight"
+			],
+			[
+				"bor",
+				"border_color"
+			],
+			[
+				"item",
+				"item_id"
+			],
+			[
+				"req",
+				"require_login"
+			],
+			[
+				"stand",
+				"standard_padding"
+			],
+			[
+				"set",
+				"setlocale"
+			],
+			[
+				"be",
+				"begin_format"
+			],
+			[
+				"boder",
+				"border_color"
+			],
+			[
+				"border",
+				"border_color"
+			],
+			[
+				"list-style",
+				"list-style-type"
+			],
+			[
+				"deta",
+				"detail_first"
+			],
+			[
+				"fe",
+				"fetch"
+			],
+			[
+				"def",
+				"defaults"
+			],
+			[
+				"pods",
+				"pod_params"
+			],
+			[
+				"page",
+				"page_class"
+			],
+			[
+				"home",
+				"home_background"
+			],
+			[
+				"background",
+				"background-color"
+			],
+			[
+				"image",
+				"image_url"
+			],
+			[
+				"in",
+				"input_url"
+			],
+			[
+				"ima",
+				"image_type"
+			],
+			[
+				"pa",
+				"parent_dir"
+			],
+			[
+				"Base",
+				"BaseEntity"
+			],
+			[
+				"Ba",
+				"BaseEntity"
+			],
+			[
+				"Sub",
+				"SubscriptionEntry"
+			],
+			[
+				"des",
+				"destroyMenu"
+			],
+			[
+				"reverse",
+				"reverse_lazy"
+			],
+			[
+				"add",
+				"add_webdocument_workspace_action"
+			],
+			[
+				"mod",
+				"model_actions"
+			],
+			[
+				"mo",
+				"model_actions"
+			],
+			[
+				"action",
+				"action_registry"
+			],
+			[
+				"ac",
+				"actions_registry"
+			],
+			[
+				"f",
+				"file_name"
+			],
+			[
+				"Kii",
+				"KiiModelActionsRegistry"
+			],
+			[
+				"re",
+				"register_actions"
+			],
+			[
+				"own",
+				"owner_only"
+			],
+			[
+				"is",
+				"is_owner"
+			],
+			[
+				"Wor",
+				"Workspace"
+			],
+			[
+				"get",
+				"get_edit_url"
+			],
+			[
+				"inh",
+				"private_inherited"
+			],
+			[
+				"workspaces",
+				"library_workspaces"
+			],
+			[
+				"pri",
+				"private_parent"
+			],
+			[
+				"priv",
+				"private_inherited"
+			],
+			[
+				"items",
+				"items_url"
+			],
+			[
+				"User",
+				"UserFactory"
+			],
+			[
+				"ite",
+				"items_url"
+			],
+			[
+				"w",
+				"workspaces"
+			],
+			[
+				"crea",
+				"create_storableandtaggableitems"
+			],
+			[
+				"Sto",
+				"StorableAndTaggableItemFactory"
+			],
+			[
+				"Stora",
+				"StorableAndTaggableItem"
+			],
+			[
+				"create",
+				"create_workspace"
+			],
+			[
+				"private_in",
+				"private_inherited"
+			],
+			[
+				"pr",
+				"private"
+			],
+			[
+				"private",
+				"private_inherited"
+			],
+			[
+				"st",
+				"storableandtaggableitems"
+			],
+			[
+				"stora",
+				"create_storableandtaggableitems"
+			],
+			[
+				"c",
+				"child"
+			],
+			[
+				"test",
+				"test_user"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 312.0,
+		"selected_items":
+		[
+			[
+				"css",
+				"Set Syntax: CSS"
+			],
+			[
+				"scss",
+				"Set Syntax: CSS"
+			],
+			[
+				"sass",
+				"Set Syntax: CSS"
+			]
+		],
+		"width": 392.0
+	},
+	"console":
+	{
+		"height": 0.0
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/home/eliotberriot/Seafile/Archives/Projets/Comptes/src/symfony/src/Yomen/CategoryBundle/Resources/config/routing.yml",
+		"/home/eliotberriot/Seafile/Archives/Projets/Comptes/src/symfony/src/Yomen/CategoryBundle/Form/CategoryType.php",
+		"/home/eliotberriot/Seafile/Archives/Projets/Comptes/src/symfony/src/Yomen/AccountsBundle/Entity/BaseEntity.php",
+		"/home/eliotberriot/Seafile/Archives/Projets/Comptes/src/symfony/src/Yomen/CategoryBundle/Entity/Category.php",
+		"/home/eliotberriot/Seafile/Archives/Projets/Comptes/src/symfony/src/Yomen/CategoryBundle/YomenCategoryBundle.php",
+		"/home/eliotberriot/Seafile/Archives/Projets/Comptes/src/symfony/src/Yomen/AccountsBundle/Entity/Operation.php",
+		"/home/eliotberriot/Seafile/Archives/Projets/Comptes/src/symfony/src/Yomen/AccountsBundle/Entity/Account.php",
+		"/home/eliotberriot/Seafile/Archives/Projets/Cercle/theme/pods-detail-user.php",
+		"/home/eliotberriot/Seafile/Archives/Projets/Cercle/theme/page_pods_users_mail.php",
+		"/home/eliotberriot/Seafile/Archives/Projets/Cercle/theme/pods-detail.php",
+		"/home/eliotberriot/Seafile/Archives/Projets/Cercle/theme/pods-list-user.php",
+		"/home/eliotberriot/Seafile/Archives/Projets/Cercle/theme/page_pods.php",
+		"/home/eliotberriot/Seafile/Archives/Projets/Cercle/theme/pods-list-meeting.php",
+		"/home/eliotberriot/Seafile/Archives/Projets/Cercle/theme/pods-detail-meeting.php",
+		"/home/eliotberriot/Seafile/Archives/Projets/Hat/Projets/Ye Xing-Qian/hat_s_yexingqian/content-page.php",
+		"/home/eliotberriot/Seafile/Archives/Projets/Cercle/theme/pods-list-item.php",
+		"/home/eliotberriot/Seafile/Archives/Projets/Cercle/theme/pods-functions.php",
+		"/home/eliotberriot/Seafile/Archives/Projets/Hat/Projets/Petrovitch et Robinson/theme/pods-detail-collection.php",
+		"/home/eliotberriot/Seafile/Archives/Projets/Cercle/theme/single-item.php",
+		"/home/eliotberriot/Seafile/Archives/Projets/Hat/Projets/Petrovitch et Robinson/theme/foundation5/scss/app.scss",
+		"/home/eliotberriot/Seafile/Archives/Projets/Cercle/theme/pods-list.php",
+		"/home/eliotberriot/Seafile/Archives/Projets/Cercle/theme/page_pods_reunions_coming.php",
+		"/home/eliotberriot/Seafile/Archives/Projets/Cercle/theme/page_pods_users.php",
+		"/home/eliotberriot/Seafile/Archives/Projets/Cercle/theme/single-meeting.php",
+		"/home/eliotberriot/Seafile/Archives/Projets/Cercle/theme/detail-user-adress.php",
+		"/home/eliotberriot/Seafile/Archives/Projets/Cercle/theme/page_pods_reunions_old.php",
+		"/home/eliotberriot/Seafile/Archives/Projets/Hat/Projets/Petrovitch et Robinson/theme/pods-list-salons.php",
+		"/home/eliotberriot/Seafile/Archives/Projets/Cercle/theme/functions.php",
+		"/home/eliotberriot/Seafile/Archives/Projets/Cercle/theme/.gitignore",
+		"/home/eliotberriot/Seafile/Archives/Projets/Cercle/theme/foundation/.gitignore",
+		"/home/eliotberriot/Seafile/Archives/Projets/Hat/Projets/Petrovitch et Robinson/theme/functions.php",
+		"/home/eliotberriot/Seafile/Archives/Projets/Hat/Projets/Petrovitch et Robinson/theme/pods-functions.php",
+		"/home/eliotberriot/Seafile/Archives/Projets/Hat/Projets/Petrovitch et Robinson/theme/page_pods_salons.php",
+		"/home/eliotberriot/Seafile/Archives/Projets/Cercle/theme/page_pods_collections.php",
+		"/home/eliotberriot/Seafile/Archives/Projets/Hat/Projets/Petrovitch et Robinson/theme/pods-list.php",
+		"/tmp/cW9OOFZu.atom-1.part",
+		"/home/eliotberriot/Téléchargements/blog.sql",
+		"/home/eliotberriot/Seafile/Archives/Projets/Hat/Projets/Petrovitch et Robinson/theme/page_pods_sales_points.php",
+		"/home/eliotberriot/Seafile/Archives/Projets/Hat/Projets/Petrovitch et Robinson/theme/data/country/countries english.csv",
+		"/home/eliotberriot/Seafile/Archives/Projets/Hat/Projets/Petrovitch et Robinson/theme/front-page.php",
+		"/home/eliotberriot/Seafile/Archives/Projets/Hat/Projets/Petrovitch et Robinson/theme/page_pods.php",
+		"/home/eliotberriot/Seafile/Archives/Projets/Hat/Projets/Petrovitch et Robinson/theme/pods-list-sales_point.php",
+		"/home/eliotberriot/Seafile/Archives/Projets/Hat/Projets/Petrovitch et Robinson/theme/foundation5/js/app.js",
+		"/home/eliotberriot/Seafile/Archives/Projets/Hat/Projets/Petrovitch et Robinson/theme/data/countries.csv",
+		"/home/eliotberriot/Seafile/Archives/Projets/Hat/Projets/Petrovitch et Robinson/theme/data/country/countries french.csv",
+		"/home/eliotberriot/Seafile/Archives/Projets/Hat/Projets/Petrovitch et Robinson/theme/page.php",
+		"/home/eliotberriot/Seafile/Archives/Projets/Hat/Projets/Petrovitch et Robinson/theme/content-page.php",
+		"/home/eliotberriot/Seafile/Archives/Projets/Hat/Projets/Petrovitch et Robinson/theme/archive.php",
+		"/home/eliotberriot/Seafile/Archives/Projets/Hat/Projets/Petrovitch et Robinson/theme/js/navigation.js",
+		"/home/eliotberriot/Seafile/Archives/Projets/Hat/Hébergement/sat/vhosts/nginx-template.wordpress",
+		"/home/eliotberriot/Seafile/Archives/Projets/Hat/Hébergement/sat/wordpress.sh",
+		"/home/eliotberriot/Seafile/Archives/Important/Logement/56 rue sainte-aloise 67000 Strasbourg/Taxe habitation/Nouveau fichier vide",
+		"/home/eliotberriot/Seafile/Archives/Projets/Hat/Projets/Petrovitch et Robinson/theme/page_pods_collections.php",
+		"/home/eliotberriot/Seafile/Archives/Projets/Hat/Projets/Petrovitch et Robinson/theme/pods-list-citation.php",
+		"/home/eliotberriot/Seafile/Archives/Projets/Hat/Projets/Petrovitch et Robinson/theme/pods-detail.php",
+		"/home/eliotberriot/Seafile/Archives/Projets/Hat/Projets/Petrovitch et Robinson/theme/pods-list-collection.php",
+		"/home/eliotberriot/Seafile/Archives/Projets/Hat/Hébergement/sat/vhosts/addhost.sh",
+		"/home/eliotberriot/Seafile/Archives/Projets/Hat/Projets/Petrovitch et Robinson/theme/page_pods_citation.php",
+		"/home/eliotberriot/Seafile/Archives/Projets/Hat/Projets/Petrovitch et Robinson/theme/content-collection.php",
+		"/home/eliotberriot/Seafile/Archives/Projets/Hat/Projets/Petrovitch et Robinson/theme/single-collection.php",
+		"/home/eliotberriot/Seafile/Archives/Projets/Hat/Projets/Petrovitch et Robinson/theme/content-collections.php",
+		"/home/eliotberriot/Seafile/Archives/Projets/Hat/Projets/Petrovitch et Robinson/theme/header.php",
+		"/home/eliotberriot/Seafile/Archives/Projets/Hat/Projets/Petrovitch et Robinson/a faire au lancement",
+		"/home/eliotberriot/Seafile/Archives/Projets/Hat/Projets/Ye Xing-Qian/hat_s_yexingqian/functions.php",
+		"/home/eliotberriot/Seafile/Archives/Projets/Hat/Projets/Petrovitch et Robinson/theme/page_pods_collection.php",
+		"/home/eliotberriot/Seafile/Archives/Projets/Hat/Projets/Petrovitch et Robinson/theme/index.php",
+		"/home/eliotberriot/Seafile/Archives/Projets/Hat/Projets/Petrovitch et Robinson/theme/content-single.php",
+		"/home/eliotberriot/Seafile/Archives/Projets/Hat/Projets/Petrovitch et Robinson/theme/search.php",
+		"/home/eliotberriot/Seafile/Archives/Projets/Hat/Projets/Petrovitch et Robinson/theme/single.php",
+		"/home/eliotberriot/Seafile/Archives/Projets/Hat/Projets/Petrovitch et Robinson/theme/test_page.php",
+		"/home/eliotberriot/Seafile/Archives/Projets/Hat/Projets/Ye Xing-Qian/hat_s_yexingqian/home.php",
+		"/home/eliotberriot/Seafile/Archives/Projets/Hat/Projets/Petrovitch et Robinson/theme/style.css",
+		"/home/eliotberriot/Seafile/Archives/Projets/Hat/Projets/Petrovitch et Robinson/theme/fabfile.py",
+		"/home/eliotberriot/Seafile/Archives/Projets/Hat/Projets/Petrovitch et Robinson/theme/foundation5/scss/_settings.scss",
+		"/home/eliotberriot/Seafile/Archives/Projets/Hat/Projets/Ye Xing-Qian/hat_s_yexingqian/js/scripts.js",
+		"/home/eliotberriot/Seafile/Archives/Projets/Hat/Projets/Petrovitch et Robinson/theme/js/upload.js",
+		"/home/eliotberriot/Seafile/Archives/Projets/Hat/Projets/Ye Xing-Qian/hat_s_yexingqian/js/navigation.js",
+		"/home/eliotberriot/Seafile/Archives/Projets/Hat/Projets/Ye Xing-Qian/hat_s_yexingqian/_settings.scss",
+		"/home/eliotberriot/Seafile/Archives/Projets/Hat/Projets/Petrovitch et Robinson/theme/hat_options/hat_options.php",
+		"/home/eliotberriot/Seafile/Archives/Projets/Hat/Projets/Petrovitch et Robinson/theme/content-home.php",
+		"/home/eliotberriot/Seafile/Archives/Projets/Hat/Projets/Petrovitch et Robinson/theme/foundation5/bower_components/foundation/scss/foundation/components/_grid.scss",
+		"/home/eliotberriot/Seafile/Archives/Projets/Hat/Projets/Petrovitch et Robinson/theme/footer.php",
+		"/home/eliotberriot/Seafile/Archives/Projets/Hat/Projets/Ye Xing-Qian/hat_s_yexingqian/footer.php",
+		"/home/eliotberriot/Seafile/Archives/Projets/Hat/Projets/Petrovitch et Robinson/theme/home.php",
+		"/home/eliotberriot/Téléchargements/kriss_feed_20140209_215712.opml",
+		"/home/eliotberriot/Seafile/Archives/Projets/kii/classify/templatetags/classify_filters.py",
+		"/home/eliotberriot/Seafile/Archives/Projets/kii/docs/reset_protocol",
+		"/home/eliotberriot/Seafile/Archives/Projets/kii/dump-07-02-2014.sql",
+		"/home/eliotberriot/Seafile/Archives/Projets/kii/docs/mysql setup.md",
+		"/home/eliotberriot/Seafile/Archives/Projets/Hat/Projets/Ye Xing-Qian/hat_s_yexingqian/index.php",
+		"/home/eliotberriot/Seafile/Archives/Projets/Hat/Projets/Petrovitch et Robinson/theme/foundation5/css/app.css",
+		"/home/eliotberriot/Seafile/Archives/Projets/Hat/Projets/Petrovitch et Robinson/theme/hat_options/js/upload.js",
+		"/home/eliotberriot/Seafile/Archives/Projets/Hat/Projets/a faire pour tout Wordpress",
+		"/home/eliotberriot/Seafile/Archives/Projets/Hat/Projets/Petrovitch et Robinson/theme/hat_options.php",
+		"/home/eliotberriot/Seafile/Archives/Projets/Hat/Projets/Ye Xing-Qian/hat_s_yexingqian/sidebar.php",
+		"/home/eliotberriot/Seafile/Archives/Projets/Hat/Projets/Ye Xing-Qian/hat_s_yexingqian/content.php",
+		"/home/eliotberriot/Seafile/Archives/Projets/Hat/Projets/Ye Xing-Qian/hat_s_yexingqian/page.php",
+		"/home/eliotberriot/Seafile/Archives/Projets/Hat/Projets/Ye Xing-Qian/hat_s_yexingqian/header.php",
+		"/home/eliotberriot/Seafile/Archives/Projets/kii/classify/autocomplete_light_registry.py",
+		"/home/eliotberriot/Seafile/Archives/Projets/kii/kii/settings.py",
+		"/home/eliotberriot/Seafile/Archives/Projets/kii/kii/factories.py",
+		"/home/eliotberriot/Seafile/Archives/Projets/kii/fab_settings.py",
+		"/home/eliotberriot/Seafile/Archives/Projets/kii/fabfile.py",
+		"/home/eliotberriot/Seafile/Archives/Projets/Hat/Projets/Petrovitch et Robinson/theme/foundation5/scss/app.css",
+		"/home/eliotberriot/Seafile/Archives/Projets/Hat/Projets/Petrovitch et Robinson/theme/foundation5/bower_components/foundation/scss/foundation/components/_block-grid.scss",
+		"/home/eliotberriot/Seafile/Archives/Projets/Hat/Projets/Petrovitch et Robinson/maquette/6/index.html",
+		"/home/eliotberriot/Seafile/Archives/Projets/Hat/Projets/Petrovitch et Robinson/theme/foundation5/Gruntfile.js",
+		"/home/eliotberriot/Seafile/Archives/Projets/Hat/Projets/Petrovitch et Robinson/theme/.gitignore",
+		"/home/eliotberriot/Seafile/Archives/Projets/Hat/Projets/Petrovitch et Robinson/theme/foundation5/package.json",
+		"/home/eliotberriot/Seafile/Archives/Important/Emploi/Pole Emploi/identifiants.txt",
+		"/home/eliotberriot/Seafile/Archives/Projets/Hat/Projets/Petrovitch et Robinson/theme/foundation5/.gitignore",
+		"/home/eliotberriot/Seafile/Archives/Projets/kii/kii/global_settings.py",
+		"/home/eliotberriot/Seafile/Archives/Projets/Hat/Projets/Ye Xing-Qian/brief",
+		"/home/eliotberriot/Seafile/Archives/Projets/Hat/Projets/Petrovitch et Robinson/maquette/1/reamde.md",
+		"/home/eliotberriot/Seafile/Archives/Projets/Hat/Projets/Petrovitch et Robinson/appel 29-01-2014",
+		"/home/eliotberriot/Seafile/Archives/Projets/Hat/Projets/Petrovitch et Robinson/maquette/3/html/index.html",
+		"/home/eliotberriot/Seafile/Archives/Projets/Hat/Projets/Petrovitch et Robinson/maquette/3/index.html",
+		"/home/eliotberriot/Seafile/Archives/Projets/Hat/Projets/Petrovitch et Robinson/appel maquette 3 06-02-2014",
+		"/home/eliotberriot/Seafile/Archives/Projets/Hat/Projets/Ye Xing-Qian/hat_s_yexingqian/fabfile.py",
+		"/home/eliotberriot/Seafile/Archives/Projets/Hat/Projets/Petrovitch et Robinson/theme/foundation5/config.rb",
+		"/home/eliotberriot/Seafile/Archives/Projets/Hat/Projets/Petrovitch et Robinson/theme/style/app.css",
+		"/home/eliotberriot/Seafile/Archives/Projets/Hat/Projets/Petrovitch et Robinson/theme/foundation5/.bowerrc",
+		"/home/eliotberriot/Seafile/Archives/Projets/Hat/Projets/Petrovitch et Robinson/theme/foundation5/bower.json",
+		"/home/eliotberriot/Seafile/Archives/Projets/Hat/Projets/Petrovitch et Robinson/theme/.git/config",
+		"/home/eliotberriot/Seafile/Archives/Projets/Hat/Projets/Petrovitch et Robinson/theme/foundation/.gitignore",
+		"/home/eliotberriot/Seafile/Archives/Projets/Hat/Projets/Petrovitch et Robinson/theme/foundation/README.md",
+		"/home/eliotberriot/Seafile/Archives/Projets/Hat/Projets/Petrovitch et Robinson/theme/foundation/.bowerrc",
+		"/home/eliotberriot/Seafile/Archives/Projets/Hat/Projets/Ye Xing-Qian/Domaine/commande 05-02-2013"
+	],
+	"find":
+	{
+		"height": 204.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"tavariable",
+			"host",
+			";",
+			"|",
+			"\",",
+			",",
+			"line-he",
+			"line-heigh",
+			"home_backgro",
+			"primary",
+			"link",
+			"font-size",
+			"hat_theme_settings_header",
+			"sur",
+			"Save",
+			"theme_nam",
+			"wptuts",
+			"Hat",
+			"wptuts",
+			"hat_theme_options_settings_init",
+			"tuts",
+			"wptu",
+			"appear",
+			"footer",
+			"home",
+			"        \n",
+			"get",
+			"action",
+			"set_private",
+			"Tag_items",
+			"_PYTHON",
+			"w",
+			"object",
+			"object_list",
+			"objects_list",
+			"is_an",
+			"        item = self.create_storableandtaggableitem(name=\"First\")\n",
+			"item",
+			"child",
+			"parent.",
+			"parent",
+			"grand_parent",
+			"w3",
+			"w2",
+			"w1",
+			"\n",
+			"   ",
+			"    ",
+			"	",
+			", ",
+			"\", ",
+			",",
+			"			\""
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"hat_theme"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 0.0
+	},
+	"input":
+	{
+		"height": 31.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"replace":
+	{
+		"height": 62.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+			[
+				"fab",
+				"fab_settings.py"
+			],
+			[
+				"classify/tes",
+				"classify/tests.py"
+			],
+			[
+				"test.y",
+				"base_items/fixtures/test.yaml"
+			],
+			[
+				"model",
+				"base_items/models.py"
+			],
+			[
+				"initi",
+				"kii/fixtures/initial_data.json"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 264.0,
+	"status_bar_visible": true
+}

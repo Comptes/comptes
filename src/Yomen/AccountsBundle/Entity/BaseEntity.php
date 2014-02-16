@@ -56,7 +56,9 @@ class BaseEntity
         $this->createdOn = new \Datetime();  // Set creation datetime to "now" when entity is created
         $this->modifiedOn = new \Datetime(); // Set last modification datetime to "now" when entity is created
     }
-
+    public function __toString(){
+        return $this->name;
+    }
     /**
      * Get id
      *
@@ -66,6 +68,7 @@ class BaseEntity
     {
         return $this->id;
     }
+
 
     /**
      * Set name
