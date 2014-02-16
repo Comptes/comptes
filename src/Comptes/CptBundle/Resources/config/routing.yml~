@@ -1,0 +1,7 @@
+comptes_cpt_homepage:
+    pattern:  /hello/{name}
+    defaults: { _controller: ComptesCptBundle:Default:index }
+
+comptes_test:
+    pattern:  /hello-{name}
+    defaults: { _controller: ComptesCptBundle:Comptes:index }

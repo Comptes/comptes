@@ -1,0 +1,13 @@
+{# src/Comptes/CptBundle/Ressources/views/Comptes/index.html.twig #}
+
+<!DOCTYPE html>
+<html>
+    <head>
+        {{headContent}}
+        <title>{{title}}title</title>
+    </head>
+    <body>
+        <h1>{{titleContent}}haut</h1>
+        <div>{{middleContent}}middle</div>
+    </body>
+</html>

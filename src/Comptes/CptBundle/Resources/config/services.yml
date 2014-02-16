@@ -1,0 +1,7 @@
+parameters:
+#    comptes_cpt.example.class: Comptes\CptBundle\Example
+
+services:
+#    comptes_cpt.example:
+#        class: %comptes_cpt.example.class%
+#        arguments: [@service_id, "plain_value", %parameter%]
